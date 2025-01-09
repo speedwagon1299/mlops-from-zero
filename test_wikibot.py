@@ -1,10 +1,9 @@
 from mylib.bot import scrape
 from click.testing import CliRunner
 from wikibot import cli
-def test_scrape():
-    assert "Microsoft" in scrape("Microsoft")
 
-    
+def test_scrape():
+    assert "Microsoft" in scrape("Microsoft")    
 
 def test_cli():
   runner = CliRunner()
