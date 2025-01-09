@@ -1,4 +1,3 @@
-import wikipedia
 from wikibot import scrape
 
 def test_scrape():
